@@ -1,0 +1,103 @@
+.footer {
+  background-color: #124170;
+  color: #fff;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding-bottom: 1.5rem;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff200; /* Jaune Pikachu */
+}
+
+/* Réseaux sociaux */
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.footer-socials span {
+  margin-right: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-top: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-title,
+  .footer-links,
+  .footer-socials {
+    flex: unset;
+    justify-content: center;
+  }
+  
+  .footer-links {
+    margin: 1rem 0;
+  }
+}

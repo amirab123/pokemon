@@ -1,0 +1,80 @@
+
+.carte-pokemon {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fff;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.carte-pokemon:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+
+.carte-pokemon img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+
+.carte-pokemon h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+
+.carte-pokemon .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.carte-pokemon .btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.carte-pokemon .btn.favoris {
+  background-color: #f4a700; 
+}
+
+.carte-pokemon .btn.favoris:hover {
+  background-color: #e0a00d;
+}
+
+.carte-pokemon .btn.supprimer {
+  background-color: #fd1900; 
+}
+
+.carte-pokemon .btn.supprimer:hover {
+  background-color: #f51e07;
+}
+
+
+.carte-pokemon .details-link {
+  font-size: 1rem;
+  text-decoration: underline;
+  color: #029071;
+  font-weight: bold;
+}
+
+.carte-pokemon .details-link:hover {
+  color: #05ab6b;
+}

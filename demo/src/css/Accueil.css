@@ -1,0 +1,60 @@
+
+.accueil-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+
+}
+
+
+.accueil-container h1 {
+  font-size: 2rem;       
+  font-weight: bold;     
+  margin-bottom: 1rem;   
+  color: #6d6b66;            
+  text-align: center;     
+}
+
+
+
+.pokemon-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+  .pokemon-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden; 
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  width: max-content;
+  animation: slide 10s linear infinite; 
+}
+
+.slider-track img {
+  width: 300px; 
+  margin-right: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.slider-track img:hover {
+  transform: scale(1.05);
+}
+
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}

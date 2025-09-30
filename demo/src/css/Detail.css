@@ -1,0 +1,79 @@
+/* Detail.css */
+
+.detail-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.detail-container h1 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.detail-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.detail-content img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.detail-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.detail-info p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.detail-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.detail-info li {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+.btn-retour {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #124170;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-retour:hover {
+  background-color: #0d3054;
+  transform: translateX(-3px);
+}

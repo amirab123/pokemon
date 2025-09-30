@@ -1,0 +1,82 @@
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  background-color: #fff;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #124170;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+
+.login-container input {
+  width: 100%;
+  padding: 14px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #f9fafb;
+  transition: all 0.3s ease;
+}
+
+.login-container input:focus {
+  border-color: #03966a;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(3, 150, 106, 0.3);
+  outline: none;
+}
+
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+.login-container .btn-login {
+  background: linear-gradient(90deg, #03966a, #0ad997);
+  color: #fff;
+}
+
+.login-container .btn-login:hover {
+  background: linear-gradient(90deg, #027a58, #0bbf85);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+.login-container .btn-google {
+  background: #fff;
+  color: #444;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.login-container .btn-google:hover {
+  background: #f3f4f6;
+}
+
+
+.login-container .btn-google img {
+  width: 20px;
+  height: 20px;
+}
